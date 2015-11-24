@@ -1,0 +1,10 @@
+a = int(input('a: '))
+b = int(input('b: '))
+c = int(input('c: '))
+
+if a <= b and a<= c:
+    print ('Menor: %d' %a)
+elif b <= c:
+    print ('Menor: %d' %b)
+else:
+    print ('Menor: %d' %c)
